@@ -130,3 +130,19 @@ body{
 	font-size: 19px;
 }
 
+.gallery img {
+    transition: transform 0.5s;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.stations img:hover {
+	transform: scale(0.95);
+}
+
